@@ -36,10 +36,10 @@ class TaskList extends Component {
       <div>
         <h2>Task List</h2>
         <div>
-          <input
-            type="text"
+          <input 
+            type="text" className = "status-text"
             placeholder="Add a task"
-            value={newTask}
+            value={newTask} 
             onChange={this.handleTaskChange}
           />
           <button className = "fancy-button" onClick={this.handleAddTask}>Add</button>

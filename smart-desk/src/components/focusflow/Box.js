@@ -17,7 +17,7 @@ class Box extends Component {
       </div>
       <div className="center">
         <div className="topnav">
-        <p>Welcome, John Doe!</p>
+        <p>Welcome, Athulya!</p>
           <p>
             <b>
               <u>Date: </u>

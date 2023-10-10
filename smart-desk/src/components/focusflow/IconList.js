@@ -52,7 +52,7 @@ class IconList extends Component {
 
         <div className="icon">
         <a href="#" onClick={(e) => this.showModal('showUserModal', e)}><BsFillPeopleFill/></a>
-          <span className="icon-description">USERS</span>
+          <span className="icon-description">USER</span>
         </div>
 
         <div className="icon">
@@ -98,13 +98,21 @@ class IconList extends Component {
 
         <ModalHome onClose={() => this.closeModal('showUserModal')} show={this.state.showUserModal}>
         <div className = "user-modal">
-          <h2>Users List</h2> 
-          <ul>
-            <li>Current: John Doe</li>
-            <li>Angela B</li>
-            <li>Pamela C</li>
-            <li>Guest</li>
-          </ul>
+          <h2>Usage Statistics</h2> 
+          <div>
+          <h3>Current User: Athulya Ganesh </h3>
+          <br></br>
+          <h3><u>Statistics</u></h3>
+          <h4>Screen Time: </h4>
+          <li>TODAY: 4 hr 40 min</li>
+          <li>THIS WEEK: 60 hr 30 min</li> <br></br>
+          <h4>Most Used Websites/Apps Today: </h4>
+          <li>Notion: 2 hrs</li>
+          <li>Teams: 1 hr 30 min</li>
+          <li>FocusFlow: 30 min</li>
+          <br></br>
+          <h4>Your usage has gone up by 30% since last week where you had 20 hrs of screen time.</h4>
+          </div>
         </div>
         </ModalHome>
 

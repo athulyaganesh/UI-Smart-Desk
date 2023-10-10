@@ -16,7 +16,7 @@ class Desk extends Component {
       </div>
       <div className="center-1">
         <div className="topnav-1">
-            Welcome! 
+            Welcome!
           <p>
             <b>
               <u>Date: </u>
