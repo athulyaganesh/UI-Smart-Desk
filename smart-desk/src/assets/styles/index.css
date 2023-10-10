@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    padding: 200px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    text-align: center; 
+  }
+
+  img {
+    width: 900px;
+    margin: auto;
+  }
+
+  img.fullt
+  {
+    width: 400px;
+    margin: auto;
+  }
+
+  img.fullt2
+  {
+    width: 600px;
+    margin: auto;
+  }
+  /* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+  /* CSS for gray button */
+.gray-button {
+  background-color: #ccc; /* Gray background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.gray-button:hover {
+  background-color: #999; /* Darker gray background color on hover */
+}
+
+/* Updated CSS for center alignment */
+
+.resizable-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+.resizable-screen {
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 20px; /* Rounded corners */
+  overflow: hidden; /* Hide content overflow */
+}
+
+.resize-handle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  cursor: se-resize; /* Resize cursor */
+  background-color: #007bff; /* Resize handle color */
+}
+
+.screen-content {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Optional: Add more styling as needed */
+
+/* Add this CSS to your stylesheet */
+
+/* Center container */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Buttons styling */
+.styled-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #995c8d; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 120px;
+}
+
+.styled-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Power Control Section */
+.power-control h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.power-control button {
+  background-color: #df7b6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Remote Control Container */
+.remote-control {
+  background-color: #eba2b8; 
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.remote-control h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Task Sections with Divisions */
+.task-section {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ec7599;
+}
+
+/* Hood Control Section */
+.hood-control {
+  margin-bottom: 20px;
+}
+
+.hood-control button {
+  background-color: #63a0e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hood-control button:hover {
+  background-color: #0056b3;
+}
+
+/* Desk Control Section */
+.desk-control {
+  margin-bottom: 20px;
+}
+
+.desk-control button {
+  background-color: #6aa277;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.desk-control button:hover {
+  background-color: #218838;
+}
+
+/* RGB Lights Control Section */
+.rgb-control {
+  margin-bottom: 20px;
+}
+
+.rgb-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.rgb-control input[type="color"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Height Control Section */
+.height-control {
+  margin-bottom: 20px;
+}
+
+.height-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.height-control input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Status and Display Text */
+.status-text {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */
