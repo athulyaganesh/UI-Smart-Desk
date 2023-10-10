@@ -21,10 +21,15 @@ class ChargingAndStorage extends Component {
         return (
         <>
           <div className = "ChargingAndStorage">
-            <h3> <u>Wireless Charging and Storage </u></h3> <br></br> <br></br>
+            <h3 className = "support"> <u>Wireless Charging and Storage </u></h3> <br></br> <br></br>
             <img src={this.state.currentImage} alt="Table" align = "center" /><br></br> <br></br>
             {<button className = "gray-button"  onClick={this.handleButtonClick}>Change Table</button>} <br></br>
           </div> <br></br>
+          <div>
+          <p className = "support">
+            It is possible for the user to pull open either one of the flat drawers but also both at the same time to allow them to put storage items as well as charge items. 
+          </p>
+          </div>
           <hr class="rounded"/><br></br>
         </>
         );

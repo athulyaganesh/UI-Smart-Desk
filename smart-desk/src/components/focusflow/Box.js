@@ -12,8 +12,7 @@ class Box extends Component {
   return (
     <>
       <div>
-        <h3><u>Focus Flow Interactive Interface</u></h3>
-       <br></br> <p>This will show us the interactive layout of Focus Flow, a productivity enhancement application that is placed on the embedded adjustable screen in the desk. </p>
+        <h3 className = "support"><u>Focus Flow Interactive Interface</u></h3>
         <br></br>
       </div>
       <div className="center">
@@ -34,12 +33,13 @@ class Box extends Component {
         </div>
         <div className="title-and-body">
           <p>Focus Flow</p>
-          <img src={pic} alt="wave" />
+          <img className = "wave" src={pic} alt="wave" />
         </div>
         <div className="botnav">
           <IconList />
         </div>
       </div>
+      <br></br> <p className = "support">This will show us the interactive layout of Focus Flow, a productivity enhancement application that is placed on the embedded adjustable screen in the desk. </p>
       <div>
         <br></br> <hr className="rounded" />
         <br></br>

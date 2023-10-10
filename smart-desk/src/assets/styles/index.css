@@ -1,26 +1,29 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-
-
 body {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px; 
     padding: 200px;
-    font-family: "Roboto", sans-serif;
+    font-size: medium;
     background-color: #fff;
     text-align: center; 
   }
 
+.support
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  padding-left:50px; 
+  padding-right: 50px; 
+}
   img {
-    width: 900px;
+    width: 1200px;
     margin: auto;
   }
 
   img.fullt
   {
-    width: 400px;
+    width: 500px;
     margin: auto;
   }
 

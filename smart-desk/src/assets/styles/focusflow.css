@@ -3,6 +3,7 @@ body {
   margin: 0;
   line-height: normal;
 }
+
 :root {
   /* fonts */
   --font-laila: Laila;
@@ -55,6 +56,11 @@ body {
 }
 img{
     display:block;
+}
+
+img.wave
+{
+  width: 900px; 
 }
 
 img.calendar

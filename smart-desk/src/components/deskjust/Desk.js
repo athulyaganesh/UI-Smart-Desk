@@ -11,8 +11,7 @@ class Desk extends Component {
   return (
     <>
       <div>
-        <h3><u>Desk-Just</u></h3><br></br>
-        <p>This will show us the interactive layout of DeskJust, an application that is placed on the embedded adjustable screen in the desk to allow the user to adjust the height and angle of the table. </p>
+        <h3 className = "support"><u>Desk-Just</u></h3><br></br>
         <br></br>
       </div>
       <div className="center-1">
@@ -39,6 +38,7 @@ class Desk extends Component {
             <DeskIcon /> 
         </div>
       </div>
+      <br></br><p className = "support">This will show us the interactive layout of DeskJust, an application that is placed on the embedded adjustable screen in the desk to allow the user to adjust the height and angle of the table. </p>
       <div>
         <br></br> <hr className="rounded" />
         <br></br>

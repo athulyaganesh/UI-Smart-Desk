@@ -55,7 +55,7 @@ class Calendar extends Component {
                       <>
                         <div className="day-number">{dayNumber}</div>
                         <div className="tasks">
-                          <p>View Tasks</p>
+                         <p>Task List</p>
                         </div>
                       </>
                     ) : ''}

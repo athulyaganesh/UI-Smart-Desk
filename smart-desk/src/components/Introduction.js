@@ -5,11 +5,11 @@ function Introduction()
     return (
         <>
         <div className="title">
-          <h1> UI Project 1 </h1>
+          <h1 className = "support"> UI Project 1 </h1>
         </div>
         <div className="project-info">
-          <h3> <b><u>Smart Desk </u></b></h3>
-          <h3> Author: Athulya Ganesh </h3><br></br>
+          <h1 className = "support"> <b><u>Smart Desk </u></b></h1>
+          <h2 className = "support"> Author: Athulya Ganesh </h2><br></br>
           <hr class="rounded"/>
           </div> 
       </>
